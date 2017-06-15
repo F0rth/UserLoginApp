@@ -7,7 +7,7 @@ import "backend.js" as Backend
 Page {
     id: loginPage
 
-    signal registerClicked()
+    signal registerClicked
 
     background: Rectangle {
         color: backGroundColor
@@ -108,7 +108,7 @@ Page {
             height: 20
         }
 
-        CButton{
+        CButton {
             height: 50
             Layout.preferredWidth: loginPage.width - 20
             Layout.alignment: Qt.AlignHCenter
@@ -120,14 +120,17 @@ Page {
             }
         }
 
-        CButton{
+        CButton {
             height: 50
             Layout.preferredWidth: loginPage.width - 20
             Layout.alignment: Qt.AlignHCenter
             name: "Sign Up"
             baseColor: "transparent"
             borderColor: mainAppColor
-            onClicked: stackView.push("qrc:/RegisterScreen.qml", {"uname": "arun", "pword": "some"}) //registerClicked()
+            onClicked: stackView.push("qrc:/RegisterScreen.qml", {
+                                          uname: "arun",
+                                          pword: "some"
+                                      }) //registerClicked()
         }
 
         Text {
