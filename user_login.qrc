@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>main.qml</file>
+        <file>UserLoginApp.qml</file>
         <file>fontawesome-webfont.ttf</file>
         <file>LogInPage.qml</file>
         <file>RegisterScreen.qml</file>
@@ -8,5 +8,6 @@
         <file>backend.js</file>
         <file>UserInfoPage.qml</file>
         <file>PasswordResetPage.qml</file>
+        <file>UserLoginApp_ru.qm</file>
     </qresource>
 </RCC>

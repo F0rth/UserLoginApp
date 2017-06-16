@@ -46,22 +46,22 @@
         <translation>Получить подсказку пароля</translation>
     </message>
     <message>
-        <location filename="PasswordResetPage.qml" line="62"/>
+        <location filename="PasswordResetPage.qml" line="64"/>
         <source>User name</source>
         <translation>Имя пользователя</translation>
     </message>
     <message>
-        <location filename="PasswordResetPage.qml" line="97"/>
+        <location filename="PasswordResetPage.qml" line="99"/>
         <source>Password Hint</source>
         <translation>Подсказка пароля</translation>
     </message>
     <message>
-        <location filename="PasswordResetPage.qml" line="138"/>
+        <location filename="PasswordResetPage.qml" line="140"/>
         <source>Retrieve</source>
         <translation>Получить</translation>
     </message>
     <message>
-        <location filename="PasswordResetPage.qml" line="150"/>
+        <location filename="PasswordResetPage.qml" line="152"/>
         <source>Your Password is</source>
         <oldsource>Your Password is,</oldsource>
         <translation>Ваш пароль</translation>
@@ -112,49 +112,84 @@
     </message>
 </context>
 <context>
-    <name>main</name>
+    <name>UserLoginApp</name>
     <message>
-        <location filename="main.qml" line="13"/>
+        <location filename="UserLoginApp.qml" line="13"/>
         <source>Login Demo</source>
         <translation>Пример авторизации</translation>
     </message>
     <message>
-        <location filename="main.qml" line="91"/>
+        <location filename="UserLoginApp.qml" line="91"/>
         <source>Valid details</source>
         <translation>Данные приняты</translation>
     </message>
     <message>
-        <location filename="main.qml" line="94"/>
-        <location filename="main.qml" line="129"/>
-        <location filename="main.qml" line="160"/>
+        <location filename="UserLoginApp.qml" line="94"/>
+        <location filename="UserLoginApp.qml" line="129"/>
+        <location filename="UserLoginApp.qml" line="160"/>
         <source>Missing credentials</source>
         <translation>Заполните все поля</translation>
     </message>
     <message>
-        <location filename="main.qml" line="97"/>
+        <location filename="UserLoginApp.qml" line="97"/>
         <source>Passwords don`t match</source>
-        <oldsource>Passwords does not match</oldsource>
         <translation>Пароли не совпадают</translation>
     </message>
     <message>
-        <location filename="main.qml" line="113"/>
+        <location filename="UserLoginApp.qml" line="113"/>
         <source>User already exist</source>
         <translation>Пользователь уже зарегистрирован</translation>
     </message>
     <message>
-        <location filename="main.qml" line="140"/>
+        <location filename="UserLoginApp.qml" line="140"/>
         <source>User not registered</source>
         <translation>Пользователь не зарегистрирован</translation>
     </message>
     <message>
-        <location filename="main.qml" line="144"/>
+        <location filename="UserLoginApp.qml" line="144"/>
         <source>Invalid credentials</source>
         <translation>Неверный пароль</translation>
     </message>
     <message>
-        <location filename="main.qml" line="172"/>
+        <location filename="UserLoginApp.qml" line="172"/>
         <source>User not found</source>
         <translation>Пользователь не найден</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <source>Login Demo</source>
+        <translation type="vanished">Пример авторизации</translation>
+    </message>
+    <message>
+        <source>Valid details</source>
+        <translation type="vanished">Данные приняты</translation>
+    </message>
+    <message>
+        <source>Missing credentials</source>
+        <translation type="vanished">Заполните все поля</translation>
+    </message>
+    <message>
+        <source>Passwords don`t match</source>
+        <oldsource>Passwords does not match</oldsource>
+        <translation type="vanished">Пароли не совпадают</translation>
+    </message>
+    <message>
+        <source>User already exist</source>
+        <translation type="vanished">Пользователь уже зарегистрирован</translation>
+    </message>
+    <message>
+        <source>User not registered</source>
+        <translation type="vanished">Пользователь не зарегистрирован</translation>
+    </message>
+    <message>
+        <source>Invalid credentials</source>
+        <translation type="vanished">Неверный пароль</translation>
+    </message>
+    <message>
+        <source>User not found</source>
+        <translation type="vanished">Пользователь не найден</translation>
     </message>
 </context>
 </TS>

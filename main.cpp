@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     app.installTranslator(&translator);
 
     QQmlApplicationEngine engine;
-    engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:/UserLoginApp.qml")));
 
     return app.exec();
 }
