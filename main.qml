@@ -94,7 +94,7 @@ ApplicationWindow {
             message = "%1!".arg(qsTr("Missing credentials"))
             break
         case 2:
-            message = "%1!".arg(qsTr("Password does not match"))
+            message = "%1!".arg(qsTr("Passwords don`t match"))
             break
         }
 
