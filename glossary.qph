@@ -1,0 +1,83 @@
+<!DOCTYPE QPH>
+<QPH sourcelanguage="en" language="ru">
+<phrase>
+    <source>Login Demo</source>
+    <target>Пример авторизации</target>
+</phrase>
+<phrase>
+    <source>Valid details</source>
+    <target>Данные приняты</target>
+</phrase>
+<phrase>
+    <source>Missing credentials</source>
+    <target>Заполните все поля</target>
+</phrase>
+<phrase>
+    <source>User already exist</source>
+    <target>Пользователь уже зарегистрирован</target>
+</phrase>
+<phrase>
+    <source>User not registered</source>
+    <target>Пользователь не зарегистрирован</target>
+</phrase>
+<phrase>
+    <source>Invalid credentials</source>
+    <target>Неверный пароль</target>
+</phrase>
+<phrase>
+    <source>User not found</source>
+    <target>Пользователь не найден</target>
+</phrase>
+<phrase>
+    <source>Log In</source>
+    <target>Войти</target>
+</phrase>
+<phrase>
+    <source>Password</source>
+    <target>Пароль</target>
+</phrase>
+<phrase>
+    <source>Sign Up</source>
+    <target>Зарегистрироваться</target>
+</phrase>
+<phrase>
+    <source>Forgot password?</source>
+    <target>Забыли пароль?</target>
+</phrase>
+<phrase>
+    <source>Retrieve Password</source>
+    <target>Получить подсказку пароля</target>
+</phrase>
+<phrase>
+    <source>Retrieve</source>
+    <target>Получить</target>
+</phrase>
+<phrase>
+    <source>Your Password is</source>
+    <target>Ваш пароль</target>
+</phrase>
+<phrase>
+    <source>User name</source>
+    <target>Имя пользователя</target>
+</phrase>
+<phrase>
+    <source>Confirm Password</source>
+    <target>Повторите пароль</target>
+</phrase>
+<phrase>
+    <source>Password Hint</source>
+    <target>Подсказка пароля</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Отмена</target>
+</phrase>
+<phrase>
+    <source>Welcome</source>
+    <target>Здравствуйте</target>
+</phrase>
+<phrase>
+    <source>Passwords don`t match</source>
+    <target>Пароли не совпадают</target>
+</phrase>
+</QPH>
