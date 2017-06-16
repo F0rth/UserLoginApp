@@ -129,8 +129,6 @@ ApplicationWindow {
             message = "%1!".arg(qsTr("Missing credentials"))
             popup.popMessage = message
             popup.open()
-            popup.forceActiveFocus()
-            console.log("Missing credentials!")
             return
         }
 
