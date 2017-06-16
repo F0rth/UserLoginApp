@@ -130,15 +130,14 @@ Page {
             onClicked: stackView.push("qrc:/RegisterScreen.qml")
         }
 
-        Text {
-            id: name
-            text: '<html><style type="text/css"></style><a href="http://google.com">Forgot password?</a></html>' //qsTr("Forgot password?")
-            linkColor: mainTextCOlor
+        CButton {
+            height: 50
+            Layout.preferredWidth: loginPage.width - 20
             Layout.alignment: Qt.AlignHCenter
-            font.pointSize: 14
-            color: mainTextCOlor
-            Layout.margins: 10
-            onLinkActivated: forgotPassword()
+            name: qsTr("Forgot password?")
+            baseColor: "transparent"
+            borderColor: mainAppColor
+            onClicked: stackView.replace("qrc:/PasswordResetPage.qml")
         }
     }
 }
