@@ -44,6 +44,8 @@ Page {
     Text {
         id: resetText
         text: qsTr("Retrieve Password")
+        width: parent.width
+        wrapMode: Text.WordWrap
         font.pointSize: 24
         anchors.top: parent.top
         anchors.topMargin: 30
