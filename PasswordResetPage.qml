@@ -10,8 +10,7 @@ Page {
     }
 
     footer: ToolBar {
-        background:
-            Rectangle {
+        background: Rectangle {
             implicitHeight: 50
             implicitWidth: 200
             color: "transparent"
@@ -36,7 +35,9 @@ Page {
                 }
                 onClicked: logoutSession()
             }
-            Item { Layout.fillWidth: true }
+            Item {
+                Layout.fillWidth: true
+            }
         }
     }
 
@@ -130,7 +131,7 @@ Page {
             height: 20
         }
 
-        CButton{
+        CButton {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter
@@ -170,11 +171,9 @@ Page {
         }
     }
 
-    function initiateRetrieval()
-    {
+    function initiateRetrieval() {
         var ret = retrievePassword(registeredUsername.text, registeredHint.text)
-        if(ret !== "")
-        {
+        if (ret !== "") {
             helpText.visible = true
             password.visible = true
             password.text = ret

@@ -172,17 +172,20 @@ Page {
             height: 20
         }
 
-        CButton{
+        CButton {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter
             name: qsTr("Sign Up")
             baseColor: mainAppColor
             borderColor: mainAppColor
-            onClicked: registerNewUser(registerUsername.text, registerPassword.text, registerPassword2.text, passwordHint.text)
+            onClicked: registerNewUser(registerUsername.text,
+                                       registerPassword.text,
+                                       registerPassword2.text,
+                                       passwordHint.text)
         }
 
-        CButton{
+        CButton {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter

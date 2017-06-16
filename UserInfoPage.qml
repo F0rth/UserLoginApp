@@ -13,10 +13,8 @@ Page {
         color: backGroundColor
     }
 
-
     header: ToolBar {
-        background:
-            Rectangle {
+        background: Rectangle {
             implicitHeight: 50
             implicitWidth: 200
             color: "transparent"
@@ -24,7 +22,9 @@ Page {
 
         RowLayout {
             anchors.fill: parent
-            Item { Layout.fillWidth: true }
+            Item {
+                Layout.fillWidth: true
+            }
             ToolButton {
                 id: control
                 font.family: "fontawesome"
