@@ -176,7 +176,7 @@ Page {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter
-            name: "Sign Up"
+            name: qsTr("Sign Up")
             baseColor: mainAppColor
             borderColor: mainAppColor
             onClicked: registerNewUser(registerUsername.text, registerPassword.text, registerPassword2.text, passwordHint.text)
@@ -186,7 +186,7 @@ Page {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter
-            name: "Cancel"
+            name: qsTr("Cancel")
             baseColor: "transparent"
             borderColor: mainAppColor
             onClicked: stackView.pop()

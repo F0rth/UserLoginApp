@@ -21,7 +21,7 @@ Page {
 
         Text {
             id: icontext
-            text: qsTr("\uf169")
+            text: "\uf169"
             anchors.centerIn: parent
             font.pointSize: 112
             font.family: "fontawesome"
@@ -112,7 +112,7 @@ Page {
             height: 50
             Layout.preferredWidth: loginPage.width - 20
             Layout.alignment: Qt.AlignHCenter
-            name: "Log In"
+            name: qsTr("Log In")
             baseColor: mainAppColor
             borderColor: mainAppColor
             onClicked: {
@@ -124,7 +124,7 @@ Page {
             height: 50
             Layout.preferredWidth: loginPage.width - 20
             Layout.alignment: Qt.AlignHCenter
-            name: "Sign Up"
+            name: qsTr("Sign Up")
             baseColor: "transparent"
             borderColor: mainAppColor
             onClicked: stackView.push("qrc:/RegisterScreen.qml")

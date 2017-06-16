@@ -28,7 +28,7 @@ Page {
             ToolButton {
                 id: control
                 font.family: "fontawesome"
-                text: qsTr("\uf08b")
+                text: "\uf08b"
                 font.pointSize: 30
                 rightPadding: 10
                 contentItem: Text {
@@ -45,10 +45,9 @@ Page {
         }
     }
 
-
     Text {
         id: welcometext
-        text: "Welcome, \n" + userName
+        text: "%1, \n%2".arg(qsTr("Welcome")).arg(userName)
         anchors.centerIn: parent
         font.pointSize: 22
         color: mainTextCOlor

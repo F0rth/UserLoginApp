@@ -88,13 +88,13 @@ ApplicationWindow {
         var message = ""
         switch (ret) {
         case 0:
-            message = "Valid details!"
+            message = "%1!".arg(qsTr("Valid details"))
             break
         case 1:
-            message = "Missing credentials!"
+            message = "%1!".arg(qsTr("Missing credentials"))
             break
         case 2:
-            message = "Password does not match!"
+            message = "%1!".arg(qsTr("Password does not match"))
             break
         }
 
@@ -110,7 +110,7 @@ ApplicationWindow {
                         uname)
             console.log(results.rows.length)
             if (results.rows.length !== 0) {
-                popup.popMessage = "User already exist!"
+                popup.popMessage = "%1!".arg(qsTr("User already exist"))
                 popup.open()
                 return
             }
@@ -126,7 +126,7 @@ ApplicationWindow {
         var message = ""
         console.log(ret)
         if (ret) {
-            message = "Missing credentials!"
+            message = "%1!".arg(qsTr("Missing credentials"))
             popup.popMessage = message
             popup.open()
             popup.forceActiveFocus()
@@ -139,11 +139,11 @@ ApplicationWindow {
                         'SELECT password FROM UserDetails WHERE username=?;',
                         uname)
             if (results.rows.length === 0) {
-                message = "User not registered!"
+                message = "%1!".arg(qsTr("User not registered"))
                 popup.popMessage = message
                 popup.open()
             } else if (results.rows.item(0).password !== pword) {
-                message = "Invalid credentials!"
+                message = "%1!".arg(qsTr("Invalid credentials"))
                 popup.popMessage = message
                 popup.open()
             } else {
@@ -159,7 +159,7 @@ ApplicationWindow {
         var message = ""
         var pword = ""
         if (ret) {
-            message = "Missing credentials!"
+            message = "%1!".arg(qsTr("Missing credentials"))
             popup.popMessage = message
             popup.open()
             return ""
@@ -171,7 +171,7 @@ ApplicationWindow {
                         'SELECT password FROM UserDetails WHERE username=? AND hint=?;',
                         [uname, phint])
             if (results.rows.length === 0) {
-                message = "User not found!"
+                message = "%1!".arg(qsTr("User not found"))
                 popup.popMessage = message
                 popup.open()
             } else {

@@ -22,7 +22,7 @@ Page {
             ToolButton {
                 id: control
                 font.family: "fontawesome"
-                text: qsTr("\uf060")
+                text: "\uf060"
                 font.pointSize: 24
                 rightPadding: 10
                 contentItem: Text {
@@ -134,7 +134,7 @@ Page {
             height: 50
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignHCenter
-            name: "Retrieve"
+            name: qsTr("Retrieve")
             baseColor: mainAppColor
             borderColor: mainAppColor
             onClicked: initiateRetrieval()
@@ -146,7 +146,7 @@ Page {
 
         Text {
             id: helpText
-            text: qsTr("Your Password is,")
+            text: "%1,".arg(qsTr("Your Password is"))
             font.pointSize: 16
             Layout.preferredWidth: parent.width - 20
             Layout.alignment: Qt.AlignLeft
