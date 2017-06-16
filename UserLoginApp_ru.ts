@@ -121,19 +121,20 @@
     <message>
         <location filename="main.qml" line="91"/>
         <source>Valid details</source>
-        <translation>Успешно</translation>
+        <translation>Данные приняты</translation>
     </message>
     <message>
         <location filename="main.qml" line="94"/>
         <location filename="main.qml" line="129"/>
         <location filename="main.qml" line="160"/>
         <source>Missing credentials</source>
-        <translation>Введите пароль</translation>
+        <translation>Заполните все поля</translation>
     </message>
     <message>
         <location filename="main.qml" line="97"/>
-        <source>Password does not match</source>
-        <translation>Неверный пароль</translation>
+        <source>Passwords don`t match</source>
+        <oldsource>Passwords does not match</oldsource>
+        <translation>Пароли не совпадают</translation>
     </message>
     <message>
         <location filename="main.qml" line="113"/>
@@ -153,7 +154,7 @@
     <message>
         <location filename="main.qml" line="172"/>
         <source>User not found</source>
-        <translation>Пользователь не зарегистрирован</translation>
+        <translation>Пользователь не найден</translation>
     </message>
 </context>
 </TS>
