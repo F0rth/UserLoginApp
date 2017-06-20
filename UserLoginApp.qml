@@ -18,6 +18,7 @@ ApplicationWindow {
     property color popupBackGroundColor: "#b44"
     property color popupTextCOlor: "#ffffff"
     property var dataBase
+    property string helloPage: "qrc:/UserInfoPage.qml"
 
     FontLoader {
         id: fontAwesome
@@ -181,7 +182,7 @@ ApplicationWindow {
 
     // Show UserInfo page
     function showUserInfo(uname) {
-        stackView.replace("qrc:/UserInfoPage.qml", {
+        stackView.replace(helloPage, {
                               userName: uname
                           })
     }
