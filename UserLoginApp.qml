@@ -31,6 +31,8 @@ ApplicationWindow {
         id: stackView
         focus: true
         anchors.fill: parent
+        anchors.leftMargin: parent.width / 2 > 420 ? (parent.width - 420) / 2 : 0
+        anchors.rightMargin: anchors.leftMargin
     }
 
     // After loading show initial Login Page
@@ -182,6 +184,8 @@ ApplicationWindow {
 
     // Show UserInfo page
     function showUserInfo(uname) {
+        stackView.anchors.leftMargin = 0
+        stackView.anchors.rightMargin = 0
         stackView.replace(helloPage, {
                               userName: uname
                           })
