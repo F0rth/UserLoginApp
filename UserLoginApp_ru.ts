@@ -119,39 +119,39 @@
         <translation>Пример авторизации</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="91"/>
+        <location filename="UserLoginApp.qml" line="94"/>
         <source>Valid details</source>
         <translation>Данные приняты</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="94"/>
-        <location filename="UserLoginApp.qml" line="129"/>
-        <location filename="UserLoginApp.qml" line="160"/>
+        <location filename="UserLoginApp.qml" line="97"/>
+        <location filename="UserLoginApp.qml" line="132"/>
+        <location filename="UserLoginApp.qml" line="163"/>
         <source>Missing credentials</source>
         <translation>Заполните все поля</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="97"/>
+        <location filename="UserLoginApp.qml" line="100"/>
         <source>Passwords don`t match</source>
         <translation>Пароли не совпадают</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="113"/>
+        <location filename="UserLoginApp.qml" line="116"/>
         <source>User already exist</source>
         <translation>Пользователь уже зарегистрирован</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="140"/>
+        <location filename="UserLoginApp.qml" line="143"/>
         <source>User not registered</source>
         <translation>Пользователь не зарегистрирован</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="144"/>
+        <location filename="UserLoginApp.qml" line="147"/>
         <source>Invalid credentials</source>
         <translation>Неверный пароль</translation>
     </message>
     <message>
-        <location filename="UserLoginApp.qml" line="172"/>
+        <location filename="UserLoginApp.qml" line="175"/>
         <source>User not found</source>
         <translation>Пользователь не найден</translation>
     </message>
