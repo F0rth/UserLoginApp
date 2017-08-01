@@ -17,6 +17,7 @@ include(deployment.pri)
 DISTFILES += \
     backend.js
 
+# Make files visible to lupdate.
 lupdate_only{
   SOURCES = *.qml \
             backend.js \
